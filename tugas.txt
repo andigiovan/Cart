@@ -1,0 +1,31 @@
+JUMAT, 30 Agustus
+
+1. Buat fungsi logout
+    - Hapus data username dan id di redux dan di local storage
+    - localStorage.removeItem('userData')
+
+2. Atur kapan suatu halam boleh dan tidak boleh di akses
+    - Login
+        - Boleh : belum login
+        - Tidak Boleh : sudah login
+    
+    - Register
+        - Boleh : belum login
+        - Tidak Boleh : sudah login
+
+    - Manage Product
+        - Boleh: sudah login
+        - Tidak Boleh: belum login
+
+    - Untuk mengetahui ada atau tidaknya user login, dengan check username di redux
+
+3. Manage product , sebelah tombol edit, kasih delete
+    - axios.delete http://localhost:2019/products/(id product)
+
+4. Install Sweetalert 2 (Optional)
+
+SENIN 2 SEPTEMBER
+
+1. Register
+    - Tidak boleh memiliki username yang sama
+    - Tidak boleh memiliki email yang sama

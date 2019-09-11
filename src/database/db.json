@@ -1,0 +1,128 @@
+{
+  "users": [
+    {
+      "username": "rochafi",
+      "email": "rochafi@gmail.com",
+      "password": "satuduatiga",
+      "id": 1
+    },
+    {
+      "username": "alvin",
+      "email": "alvin@gmail.com",
+      "password": "satuduatiga",
+      "id": 2
+    },
+    {
+      "username": "",
+      "email": "",
+      "password": "",
+      "id": 3
+    },
+    {
+      "username": "rochafi89",
+      "email": "rochafi89@gmail.com",
+      "password": "satuduatiga",
+      "id": 4
+    }
+  ],
+  "products": [
+    {
+      "name": "One",
+      "description": "Lorem ipsum sit amet",
+      "price": "140000",
+      "picture": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "id": 1
+    },
+    {
+      "name": "Product Two",
+      "description": "Lorem Ipsum Two",
+      "price": "87000",
+      "picture": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "id": 2
+    },
+    {
+      "name": "Product Three",
+      "description": "Lorem Ipsum Three",
+      "price": "100000",
+      "picture": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "id": 3
+    },
+    {
+      "name": "Product Four",
+      "description": "Lorem ipsum four",
+      "price": "87000",
+      "picture": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "id": 4
+    },
+    {
+      "name": "Product Five",
+      "description": "Desc Five",
+      "price": "50000",
+      "picture": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "id": 5
+    }
+  ],
+  "carts": [
+    {
+      "userId": 1,
+      "productId": 1,
+      "productName": "One",
+      "productPrice": 140000,
+      "productDesc": "Lorem ipsum sit amet",
+      "productPict": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "productQty": 7,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "productId": 5,
+      "productName": "Product Five",
+      "productPrice": 50000,
+      "productDesc": "Desc Five",
+      "productPict": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "productQty": 5,
+      "id": 2
+    },
+    {
+      "userId": 1,
+      "productId": 2,
+      "productName": "Product Two",
+      "productPrice": 87000,
+      "productDesc": "Lorem Ipsum Two",
+      "productPict": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "productQty": 2,
+      "id": 3
+    },
+    {
+      "userId": 2,
+      "productId": 4,
+      "productName": "Product Four",
+      "productPrice": 87000,
+      "productDesc": "Lorem ipsum four",
+      "productPict": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "productQty": 15,
+      "id": 4,
+      "qty": null
+    },
+    {
+      "userId": 2,
+      "productId": 2,
+      "productName": "Product Two",
+      "productPrice": 87000,
+      "productDesc": "Lorem Ipsum Two",
+      "productPict": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "productQty": 6,
+      "id": 5
+    },
+    {
+      "userId": 2,
+      "productId": 5,
+      "productName": "Product Five",
+      "productPrice": 50000,
+      "productDesc": "Desc Five",
+      "productPict": "https://www.jakartanotebook.com/images/products/99/63/19075/2/kaos-polos-katun-pria-o-neck-size-m-81402b-or-t-shirt-black-24.jpg",
+      "productQty": 5,
+      "id": 6
+    }
+  ]
+}
