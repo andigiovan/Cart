@@ -15,6 +15,7 @@ class Login extends Component {
         // Memanggil Action Creator 'onLoginUser'
         this.props.onLoginUser(username, password)
     }
+    
 
     render() {
         // jika user belum login
